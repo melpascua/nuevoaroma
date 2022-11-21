@@ -8,6 +8,7 @@
 /*----HEADER----*/
 .font {
     font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
 }
 header {
     display: flex;
@@ -15,7 +16,7 @@ header {
     align-items: center;
     flex-wrap: wrap;
 }
-header nav a {
+.nav a {
     text-decoration:none;
     color: #715138;
 }
@@ -26,11 +27,11 @@ header a img {
     margin-left: 10px;
     margin-right: 10px;
 }
-header nav ul {
+.nav {
     display: flex;
     margin-top: 10px;
 }
-header nav ul li{
+.nav li{
     list-style: none;
     font-size: 20px;
     font-weight: 500;
@@ -41,7 +42,7 @@ header nav ul li{
     transition-property: all;
     transition-duration: 1s;
 }
-header nav ul li:hover {
+.nav li:hover {
     background-color: #c28a52;
     color: #715138;
 }
@@ -55,10 +56,10 @@ header nav ul li:hover {
     border-bottom: 2px #a8723c solid;
     padding-top: 2px;
     padding-bottom: 5px;
+    margin-top: 5px;
 }
 .titulo div{
     text-align: center;
-    font-style: italic;
 }
 .titulo div h1 {
     font-size: 50px;
@@ -68,13 +69,22 @@ header nav ul li:hover {
 .titulo div h2 {
     font-size: 30px;
     color: #715138;
+    font-weight: 800;
 }
 .carrusel {
-    margin-top: 35px;
+    margin-top: 20px;
 }
 .carousel-inner img {
     height: 750px;
     opacity: 0.7;
+}
+.carousel-inner h5 {
+    font-size: 30px;
+    font-weight: 1000;
+}
+.carousel-inner p {
+    font-size: 20px;
+    font-weight: 600;
 }
 .extra {
     display: flex;
@@ -99,9 +109,10 @@ header nav ul li:hover {
 .extra h3 {
     text-align: center;
     position: relative;
-    top: 160px;
+    top: 175px;
     color: #715138;
     z-index: 100;
+    font-weight: 700;
 }
 
 /*----FOOTER----*/
@@ -122,6 +133,10 @@ footer {
     flex-wrap: wrap;
     justify-content: center;
     padding-top: 10px;
+}
+.derechos h4 {
+    font-size: 20px;
+    font-weight: 600;
 }
 footer a img {
     width: 40px;
@@ -435,6 +450,8 @@ ul {
 }
 .formulario p {
     color: #715138;
+    font-weight: 600;
+    font-size: 20px;
 }
 .formulario form {
     display: grid;
@@ -453,6 +470,8 @@ ul {
     color: #715138;
     border: 1px solid #a8723c;
     text-align: center;
+    font-size: 20px;
+    font-weight: 600;
 }
 .formulario form input, 
 .formulario form textarea {
