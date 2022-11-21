@@ -6,6 +6,9 @@
 }
 
 /*----HEADER----*/
+.font {
+    font-family: 'Times New Roman', Times, serif;
+}
 header {
     display: flex;
     justify-content:flex-start;
@@ -40,6 +43,7 @@ header nav ul li{
 }
 header nav ul li:hover {
     background-color: #c28a52;
+    color: #715138;
 }
 
 /*----MAIN----*/
@@ -59,6 +63,7 @@ header nav ul li:hover {
 .titulo div h1 {
     font-size: 50px;
     color: #715138;
+    font-weight: 1000;
 }
 .titulo div h2 {
     font-size: 30px;
@@ -70,14 +75,6 @@ header nav ul li:hover {
 .carousel-inner img {
     height: 750px;
     opacity: 0.7;
-}
-.carousel-inner h5 {
-    font-size: 30px;
-    color: #000000;
-}
-.carousel-inner p {
-    font-size: 20px;
-    color: #000000;
 }
 .extra {
     display: flex;
@@ -154,6 +151,7 @@ footer a img {
 .nuestro-menu div h1 {
     font-size: 50px;
     color: #715138;
+    font-weight: 800;
 }
 .nuestro-menu  div h2{
     text-align: center;
@@ -433,6 +431,10 @@ ul {
     text-align: center;
     margin-bottom: 50px;
     font-size: 35px;
+    color: #715138;
+}
+.formulario p {
+    color: #715138;
 }
 .formulario form {
     display: grid;
