@@ -4,11 +4,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-html {
-    color: #715138;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-style: italic;
-}
+
 /*----HEADER----*/
 header {
     display: flex;
@@ -62,39 +58,26 @@ header nav ul li:hover {
 }
 .titulo div h1 {
     font-size: 50px;
+    color: #715138;
 }
 .titulo div h2 {
     font-size: 30px;
-}
-.nuevo {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items: center;
-    text-align: start;
-    font-style: italic;
-    border-bottom: 2px #a8723c solid;
-}
-.nuevo div h2 {
-    font-size: 45px;
-    padding-bottom: 3px;
-}
-.nuevo div h3 {
-    font-size: 30px;
-    font-weight: 800;
-    padding-bottom: 10px;
-}
-.nuevo div p {
-    font-size: 20px;
     color: #715138;
 }
-.nuevo img {
-    height: 400px;
-    width: 600px;
-    margin-top: 5px;
-    margin-bottom: 8px;
-    border: 2px #a8723c solid;
-    border-spacing: 10;
+.carrusel {
+    margin-top: 35px;
+}
+.carousel-inner img {
+    height: 750px;
+    opacity: 0.7;
+}
+.carousel-inner h5 {
+    font-size: 30px;
+    color: #000000;
+}
+.carousel-inner p {
+    font-size: 20px;
+    color: #000000;
 }
 .extra {
     display: flex;
@@ -170,6 +153,7 @@ footer a img {
 }
 .nuestro-menu div h1 {
     font-size: 50px;
+    color: #715138;
 }
 .nuestro-menu  div h2{
     text-align: center;
@@ -177,6 +161,7 @@ footer a img {
     font-size: 35px;
     margin-top: 5px;
     margin-bottom: 10px;
+    color: #715138
 }
 .bebidas-uno {
     display: flex;
@@ -187,6 +172,7 @@ footer a img {
 }
 .bebidas-uno h3 {
     padding-top: 5px;
+    color: #634a38;
 }
 .bebidas-dos {
     display: flex;
@@ -197,6 +183,7 @@ footer a img {
 }
 .bebidas-dos h3 {
     padding-top: 5px;
+    color: #634a38;
 }
 .titulo-comida {
     border-top: 2px #a8723c solid;
@@ -208,6 +195,12 @@ footer a img {
     font-size: 25px;
     margin-top: 10px;
     margin-bottom: 10px;
+}
+.titulo-comida h2 {
+    color: #715138
+}
+.comida h3 {
+    color: #634a38;
 }
 .comida {
     display: flex;
@@ -246,11 +239,13 @@ footer a img {
 }
 .tienda-section div h1 {
     font-size: 50px;
+    color: #715138;
 }
 .tienda-section div h2 {
     text-align: center;
     padding-top: 10px;
     font-size: 35px;
+    color: #715138;
 }
 .maquina-cafe {
     display: flex;
@@ -263,6 +258,7 @@ footer a img {
 }
 .maquina-cafe h3 {
     padding-top: 5px;
+    color: #634a38;
 }
 .titulo-cafe {
     display: flex;
@@ -273,6 +269,7 @@ footer a img {
     font-size: 25px;
     margin-top: 5px;
     margin-bottom: 10px;
+    color: #715138;
 }
 .cafe-tienda {
     display: flex;
@@ -284,6 +281,7 @@ footer a img {
 }
 .cafe-tienda h3{
     padding-top: 5px;
+    color: #634a38;
 }
 .titulo-accesorio {
     display: flex;
@@ -294,6 +292,7 @@ footer a img {
     font-size: 25px;
     margin-top: 5px;
     margin-bottom: 10px;
+    color: #715138;
 }
 .articulos {
     display: flex;
@@ -302,8 +301,14 @@ footer a img {
     padding-top: 15px;
     padding-bottom: 30px;
 }
+.articulos h3 {
+    color: #634a38;
+}
 
 /*----NOSOTROS----*/
+.nosotros {
+    color: #715138;
+}
 .nosotros img {
     height: 400px;
     width: 600px;
@@ -399,6 +404,9 @@ footer a img {
 }
 .contacto { 
     width: 100%;
+}
+.contacto h1 {
+    color: #715138;
 }
 ul {
     list-style: none;
