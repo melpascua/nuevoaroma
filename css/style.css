@@ -586,7 +586,8 @@ ul {
 
 @media screen and (max-width:630px) {
     .nav li {
-        margin: 5px;
+        margin: 0px;
+        border: none;
     }
 
     .nosotros img {
