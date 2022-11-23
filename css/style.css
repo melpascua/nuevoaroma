@@ -579,6 +579,9 @@ ul {
     header {
         flex-direction: column;
     }
+    .carousel-item img {
+        height: 500px;
+    }
 }
 
 @media screen and (max-width:620px) {
@@ -650,7 +653,7 @@ ul {
     .nav li {
         font-size: 15px;
     }
-
+    
     .titulo div h1 {
         font-size: 40px;
     }
