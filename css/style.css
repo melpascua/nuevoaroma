@@ -584,7 +584,7 @@ ul {
     }
 }
 
-@media screen and (max-width:620px) {
+@media screen and (max-width:630px) {
     .nav li {
         margin: 5px;
     }
@@ -653,7 +653,7 @@ ul {
     .nav li {
         font-size: 15px;
     }
-    
+
     .titulo div h1 {
         font-size: 40px;
     }
