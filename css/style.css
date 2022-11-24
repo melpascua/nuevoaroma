@@ -586,8 +586,9 @@ ul {
 
 @media screen and (max-width:630px) {
     .nav li {
-        margin: 0px;
+        margin: 0;
         border: none;
+        padding: 5px 10px 5px 10px;
     }
 
     .nosotros img {
@@ -636,13 +637,6 @@ ul {
         text-align: center;
     }
 
-}
-
-@media screen and (max-width:535px) {
-    .nav li {
-        margin: 0;
-        border: none;
-    }
 }
 
 @media screen and (max-width: 475px) {
