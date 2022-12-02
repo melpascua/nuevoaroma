@@ -9,6 +9,7 @@
 .font {
     font-family: 'Times New Roman', Times, serif;
     font-style: italic;
+    color: #715138;
 }
 
 header {
@@ -36,7 +37,7 @@ header a img {
     margin-top: 10px;
 }
 
-.nav li {
+.nav li a {
     list-style: none;
     font-size: 20px;
     font-weight: 500;
@@ -44,15 +45,14 @@ header a img {
     border: 1px #a8723c solid;
     padding: 5px 15px 5px 15px;
     margin: 15px;
+    transition-duration: 0.5s;
     transition-property: all;
-    transition-duration: 1s;
 }
 
-.nav li:hover {
+.nav li a:hover {
     background-color: #c28a52;
     color: #715138;
 }
-
 /*----MAIN----*/
 .titulo {
     display: flex;
@@ -62,7 +62,7 @@ header a img {
     border-bottom: 2px #a8723c solid;
     padding-top: 2px;
     padding-bottom: 5px;
-    margin-top: 5px;
+    margin-top: 9px;
 }
 
 .titulo div {
@@ -167,6 +167,9 @@ footer a img {
     height: 40px;
 }
 
+footer h4 {
+    color: black;
+}
 /*----MENÚ----*/
 .menu {
     text-align: center;
@@ -451,12 +454,19 @@ footer a img {
     padding-left: 10px;
     padding-right: 10px;
 }
-
 .mision div p {
     width: 600px;
     font-size: 20px;
     text-align: left;
     padding-left: 10px;
+}
+
+.mision img {
+    height: 400px;
+    width: 600px;
+    margin-top: 5px;
+    margin-bottom: 8px;
+    border: 2px #a8723c solid;
 }
 
 .eventos-titulos {
