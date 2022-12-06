@@ -1,0 +1,19 @@
+$colores:
+#715138, 
+#634a38,
+#a8723c,
+#c28a52,
+#aa9d8c,
+black;
+
+%flex-evenly {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+%flex-center {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}

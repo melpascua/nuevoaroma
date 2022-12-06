@@ -1,0 +1,13 @@
+@import "./base/variables";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.font {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    color: nth($colores, 1)
+}

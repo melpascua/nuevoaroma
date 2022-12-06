@@ -1,0 +1,32 @@
+@import "./base/variables";
+
+footer {
+    background-color: nth($colores, 5);
+    border-top: 2px nth($colores, 3) solid;
+    height: 100px;
+    margin-top: 10px;
+    width: 100%;
+
+    a {
+        img {
+            width: 40px;
+            height: 40px;
+        }
+    }
+}
+
+.redes {
+    @extend %flex-center;
+    padding-top: 10px;
+}
+
+.derechos {
+    @extend %flex-center;
+    padding-top: 10px;
+
+    h4 {
+        font-size: 20px;
+        font-weight: 600;
+        color: nth($colores, 6)
+    }
+}
