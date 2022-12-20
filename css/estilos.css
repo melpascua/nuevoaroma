@@ -452,7 +452,7 @@ footer {
     justify-content: center;
     align-items: center; }
   .historia div p {
-    font-size: 10px;
+    font-size: 15px;
     width: 300px;
     margin: 0;
     text-align: center; }
@@ -461,7 +461,7 @@ footer {
     justify-content: center;
     align-items: center; }
   .mision div p {
-    font-size: 10px;
+    font-size: 15px;
     width: 300px;
     margin: 0;
     text-align: center; }
@@ -473,7 +473,7 @@ footer {
     justify-content: center;
     align-items: center; }
   .eventos div p {
-    font-size: 10px;
+    font-size: 15px;
     width: 300px;
     margin: 0;
     text-align: center; } }
